@@ -1,0 +1,40 @@
+module.exports = {
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      spacing: {
+        '1px': '1px',
+        '2px': '2px',
+        '3px': '3px',
+        '4px': '4px',
+        '5px': '5px',
+        '6px': '6px',
+        '7px': '7px',
+        '8px': '8px',
+        '9px': '9px',
+        '10px': '10px',
+        '12px': '12px',
+        '14px': '14px',
+        '18px': '18px',
+        '19px': '19px',
+        '22px': '22px',
+        '24px': '24px',
+        '30px': '30px',
+        '34px': '34px',
+        '50px': '50px',
+      },
+      colors: {
+        'b-pink': 'rgb(251, 114, 153)',
+        'b-gray': 'rgb(97, 102, 109)',
+        'b-gray-2': 'rgb(148, 153, 160)',
+        'b-black': 'rgb(24, 25, 28)',
+      },
+      fontSize: {
+        '13': ['13px', '18px'],
+        '14': ['14px', '21px'],
+        '15': ['15px', '24px'],
+      },
+    },
+  },
+  plugins: [],
+}
