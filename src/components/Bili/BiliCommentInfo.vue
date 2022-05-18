@@ -1,12 +1,14 @@
 <template>
   <div class="flex items-center text-b-gray-2 text-13">
-    <span class="mr-19px">{{ time }}</span>
-    <i class="like w-4 h-4 mr-5px bg-center bg-cover bg-no-repeat mb-1px ml-1px cursor-pointer"></i>
-    <span class="mr-19px">{{ likeCount }}</span>
+    <span class="mr-19px flex-shrink-0">{{ time }}</span>
     <i
-      class="heat w-4 h-4 bg-center bg-cover bg-no-repeat mr-19px mb-1px ml-1px cursor-pointer"
+      class="like w-4 h-4 mr-5px bg-center bg-cover bg-no-repeat mb-1px ml-1px cursor-pointer flex-shrink-0"
     ></i>
-    <span class="ml-5px cursor-pointer">回复</span>
+    <span class="mr-19px flex-shrink-0">{{ likeCount }}</span>
+    <i
+      class="heat w-4 h-4 bg-center bg-cover bg-no-repeat mr-19px mb-1px ml-1px cursor-pointer flex-shrink-0"
+    ></i>
+    <span class="ml-5px cursor-pointer flex-shrink-0">回复</span>
   </div>
 </template>
 
